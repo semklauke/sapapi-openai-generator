@@ -1,0 +1,51 @@
+# Org.OpenAPITools.Model.APISALESORDERSRVASalesOrderHeaderPrElementType
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**SalesOrder** | **string** |  | [optional] 
+**PricingProcedureStep** | **string** |  | [optional] 
+**PricingProcedureCounter** | **string** | Condition Counter | [optional] 
+**ConditionType** | **string** |  | [optional] 
+**PricingDateTime** | **string** | Timestamp for Pricing | [optional] 
+**PriceConditionDeterminationDte** | **string** | Condition Pricing Date | [optional] 
+**ConditionCalculationType** | **string** | Calculation Type for Condition | [optional] 
+**ConditionBaseValue** | **decimal?** |  | [optional] 
+**ConditionRateValue** | **decimal?** | Condition Amount or Percentage | [optional] 
+**ConditionCurrency** | **string** | Currency Key | [optional] 
+**ConditionQuantity** | **decimal?** | Condition Pricing Unit | [optional] 
+**ConditionQuantityUnit** | **string** | Condition Unit in the Document | [optional] 
+**ConditionQuantitySAPUnit** | **string** | SAP Unit Code for Condition Quantity | [optional] 
+**ConditionQuantityISOUnit** | **string** | ISO Unit Code for Condition Quantity | [optional] 
+**ConditionCategory** | **string** | Condition Category (Examples: Tax, Freight, Price, Cost) | [optional] 
+**ConditionIsForStatistics** | **bool?** | Condition is used for statistics | [optional] 
+**PricingScaleType** | **string** |  | [optional] 
+**ConditionOrigin** | **string** | Origin of the Condition | [optional] 
+**IsGroupCondition** | **string** |  | [optional] 
+**ConditionRecord** | **string** | Number of Condition Record | [optional] 
+**ConditionSequentialNumber** | **string** | Sequential Number of the Condition | [optional] 
+**TaxCode** | **string** | Tax on Sales/Purchases Code | [optional] 
+**WithholdingTaxCode** | **string** | Withholding Tax Code | [optional] 
+**CndnRoundingOffDiffAmount** | **decimal?** | Rounding-Off Difference of the Condition | [optional] 
+**ConditionAmount** | **decimal?** |  | [optional] 
+**TransactionCurrency** | **string** | SD Document Currency | [optional] 
+**ConditionControl** | **string** |  | [optional] 
+**ConditionInactiveReason** | **string** | Condition is Inactive | [optional] 
+**ConditionClass** | **string** |  | [optional] 
+**PrcgProcedureCounterForHeader** | **string** | Condition Counter (Header) | [optional] 
+**FactorForConditionBasisValue** | [**ConditionFactor**](ConditionFactor.md) |  | [optional] 
+**StructureCondition** | **string** |  | [optional] 
+**PeriodFactorForCndnBasisValue** | [**ConditionFactor1**](ConditionFactor1.md) |  | [optional] 
+**PricingScaleBasis** | **string** | Scale Basis Indicator | [optional] 
+**ConditionScaleBasisValue** | **decimal?** | Scale Base Value | [optional] 
+**ConditionScaleBasisUnit** | **string** | Condition Scale Unit of Measure | [optional] 
+**ConditionScaleBasisCurrency** | **string** |  | [optional] 
+**CndnIsRelevantForIntcoBilling** | **bool?** | Condition for Intercompany Billing | [optional] 
+**ConditionIsManuallyChanged** | **bool?** | Condition Changed Manually | [optional] 
+**ConditionIsForConfiguration** | **bool?** | Condition Used for Variant Configuration | [optional] 
+**VariantCondition** | **string** | Variant Condition Key | [optional] 
+**ToSalesOrder** | [**APISALESORDERSRVASalesOrderType**](APISALESORDERSRVASalesOrderType.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
